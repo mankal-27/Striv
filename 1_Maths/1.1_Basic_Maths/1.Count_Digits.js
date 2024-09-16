@@ -1,11 +1,11 @@
-function reverseDigits(N) {
-  let rev = 0;
+
+function countDigits(N) {
+  let count = 0;
   while (N > 0) {
-      rev = rev * 10 + (N % 10);
-      N = Math.floor(N / 10);
+          N = Math.floor(N / 10);
+          count++;
   }
-  return rev;
+  return count;
 }
 
-// Export the function so it can be imported in the test file
-module.exports = reverseDigits;
+module.exports = countDigits;
