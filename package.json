@@ -19,5 +19,8 @@
   "homepage": "https://github.com/mankal-27/Striv#readme",
   "devDependencies": {
     "mocha": "^10.7.3"
+  },
+  "dependencies": {
+    "sinon": "^19.0.2"
   }
 }
