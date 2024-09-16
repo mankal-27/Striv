@@ -8,4 +8,5 @@ function countDigits(N) {
   return count;
 }
 
+countDigits(12345);
 module.exports = countDigits;
