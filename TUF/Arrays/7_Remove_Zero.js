@@ -17,4 +17,4 @@ function removeAllZeros(arr) {
     return arr
 }
 
-console.log(removeAllZeros([1, 0, 2, 0, 3, 0, 4, 0, 5]))
+console.log(removeAllZeros([1, 0, 2, 0, 3, 0, 4, 0, 5,3,4]))
