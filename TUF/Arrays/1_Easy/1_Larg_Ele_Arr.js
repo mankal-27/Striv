@@ -6,6 +6,7 @@ function FindLargestElement(arr) {
         }
     }
     return max
+    console.log("FindLargestElement")
 }
 
 console.log(FindLargestElement([1, 4, 2, 8, 345, 123, 43, 32, 5643, 63, 123, 4, 92]))
